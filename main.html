@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+
+<html class="scroll-smooth" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>A Letter to You</title>
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,200..800;1,6..72,200..800&amp;family=Be+Vietnam+Pro:wght@100;300;400;600&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            colors: {
+              "on-error-container": "#68001f",
+              "surface-tint": "#894c65",
+              "on-surface-variant": "#625f55",
+              "surface-container-lowest": "#ffffff",
+              "surface-container-high": "#ede8dc",
+              "on-tertiary": "#fff8f2",
+              "tertiary-fixed": "#fcc97d",
+              "surface": "#fef9f1",
+              "on-tertiary-fixed": "#492f00",
+              "on-primary-fixed": "#4d1a32",
+              "on-primary": "#fff7f8",
+              "error": "#ac3149",
+              "on-secondary-container": "#5a4b6e",
+              "primary-fixed-dim": "#eea3c0",
+              "surface-variant": "#e7e2d5",
+              "secondary-container": "#eddcff",
+              "outline": "#7e7b70",
+              "on-secondary-fixed-variant": "#645578",
+              "surface-container-highest": "#e7e2d5",
+              "tertiary": "#7d5817",
+              "primary-container": "#feb0ce",
+              "surface-bright": "#fef9f1",
+              "inverse-surface": "#0f0e0a",
+              "on-secondary": "#fef6ff",
+              "error-dim": "#770326",
+              "on-surface": "#34322a",
+              "surface-container-low": "#f8f3ea",
+              "primary": "#894c65",
+              "tertiary-container": "#fcc97d",
+              "error-container": "#f76a80",
+              "inverse-on-surface": "#a09c96",
+              "secondary": "#68587c",
+              "on-primary-container": "#652e46",
+              "on-primary-fixed-variant": "#70364f",
+              "on-error": "#fff7f7",
+              "on-secondary-fixed": "#47395a",
+              "primary-dim": "#7b4059",
+              "secondary-dim": "#5b4d6f",
+              "background": "#fef9f1",
+              "surface-dim": "#dfdacc",
+              "secondary-fixed": "#eddcff",
+              "on-tertiary-fixed-variant": "#6d4a07",
+              "outline-variant": "#b6b2a6",
+              "on-tertiary-container": "#624100",
+              "surface-container": "#f3ede3",
+              "primary-fixed": "#feb0ce",
+              "tertiary-fixed-dim": "#edbc71",
+              "tertiary-dim": "#704c0a",
+              "inverse-primary": "#feb0ce",
+              "secondary-fixed-dim": "#e0cdf6",
+              "on-background": "#34322a"
+            },
+            fontFamily: {
+              "headline": ["Newsreader"],
+              "body": ["Be Vietnam Pro"],
+              "label": ["Be Vietnam Pro"]
+            },
+            borderRadius: {"DEFAULT": "1rem", "lg": "2rem", "xl": "3rem", "full": "9999px"},
+          },
+        },
+      }
+    </script>
+<style>
+        .material-symbols-outlined { font-variation-settings: 'FILL' 0, 'wght' 300, 'GRAD' 0, 'opsz' 24; }
+        .glass-card { backdrop-filter: blur(20px); border: 1px solid rgba(255, 255, 255, 0.1); }
+        .hero-gradient { background: linear-gradient(135deg, rgba(137, 76, 101, 0.4) 0%, rgba(254, 176, 206, 0.2) 100%); }
+    </style>
+</head>
+<body class="bg-surface font-body text-on-surface selection:bg-primary-container selection:text-on-primary-container">
+<!-- TopNavBar -->
+<nav class="fixed top-6 left-1/2 -translate-x-1/2 w-[90%] z-50 rounded-full bg-white/30 dark:bg-zinc-900/30 backdrop-blur-2xl shadow-[0_20px_50px_rgba(230,168,215,0.15)] flex justify-between items-center px-10 py-4">
+<div class="text-2xl font-serif italic tracking-tight text-rose-500 dark:text-rose-300">Nikhil ❤️ Kanthimathi</div>
+<div class="hidden md:flex items-center space-x-8">
+<a class="text-rose-600 dark:text-rose-200 border-b-2 border-rose-200/40 pb-1 font-serif italic text-lg leading-relaxed transition-all duration-700 ease-out hover:scale-105" href="#story">Our Story</a>
+<a class="text-zinc-500 dark:text-zinc-400 hover:text-rose-400 font-serif italic text-lg leading-relaxed transition-all duration-700 ease-out hover:scale-105" href="#memories">Little Things</a>
+<a class="text-zinc-500 dark:text-zinc-400 hover:text-rose-400 font-serif italic text-lg leading-relaxed transition-all duration-700 ease-out hover:scale-105" href="#letter">The Letter</a>
+
+</div>
+<div class="flex items-center gap-4">
+</div>
+</nav>
+<!-- 1. Hero Section -->
+<section class="relative h-screen flex items-center justify-center overflow-hidden" id="story">
+<div class="absolute inset-0 z-0">
+<img class="w-full h-full object-cover" data-alt="cinematic silhouette of a couple watching a breathtaking pink and orange sunset over a calm ocean horizon" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAAD7O6EEzVPMp84QTO37sJyWdqUWhbOhS1xUzt77g6_J6RUtgL6SJYAD6sxmxXvM-oFHlCxS-ya8NiWmuNeu2pz5qeLznzRn8yk8se0Ik1q_IVCY8aP6TYqqctEtKzS0YgMBRcIcsefPNZoXl0VO137dGI7yfU4ZZxXLvPsjZBCJXkkqJGLXG0YeTRTHElVDeKjwSJle6n9ejvcUhit0T6wj-oSHZqt4RXgwnOBGVdE_SxJTV0W5SWKRDNrSZjuxYIO4bqoKMZbu8"/>
+<div class="absolute inset-0 bg-gradient-to-b from-transparent via-surface/20 to-surface"></div>
+<div class="absolute inset-0 hero-gradient"></div>
+</div>
+<div class="relative z-10 text-center px-6 max-w-4xl">
+<h1 class="font-headline italic text-5xl md:text-7xl lg:text-8xl text-white drop-shadow-2xl mb-6">Every moment without you feels incomplete...</h1>
+<p class="font-headline text-xl md:text-2xl text-white/90 italic tracking-wide">I miss you more than words can ever explain.</p>
+</div>
+<div class="absolute bottom-10 left-1/2 -translate-x-1/2 animate-bounce" onclick="document.getElementById('memories').scrollIntoView({ behavior: 'smooth' })">
+<span class="material-symbols-outlined text-white text-3xl">keyboard_double_arrow_down</span>
+</div>
+</section>
+<!-- 2. Our Memories (Bento Grid Style) -->
+<section class="py-32 px-6 md:px-12 bg-surface" id="memories">
+<div class="max-w-7xl mx-auto">
+<div class="mb-16 text-center">
+<span class="text-primary font-headline text-xl mb-2 block italic">Fragments of us</span>
+<h2 class="text-4xl md:text-5xl font-headline italic text-on-surface">Our Memories</h2>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-4 gap-6 h-[1000px] md:h-[800px]">
+<div class="md:col-span-2 md:row-span-2 group relative overflow-hidden rounded-xl shadow-lg">
+<img class="w-full h-full object-cover transition-transform duration-1000 group-hover:scale-110" data-alt="tender close-up of two people holding hands while walking through a field of lavender during golden hour" src="./assets/dcee659e-66dd-4d75-bae6-450a2dc9c855.jpeg"/>
+<div class="absolute inset-0 bg-black/20 opacity-0 group-hover:opacity-100 transition-opacity flex items-end p-8">
+<p class="text-white font-headline italic text-2xl">This day still lives in my heart...</p>
+</div>
+</div>
+<div class="group relative overflow-hidden rounded-xl shadow-lg">
+<img class="w-full h-full object-cover transition-transform duration-1000 group-hover:scale-110" data-alt="intimate moment of a couple sharing a quiet conversation in a cozy Parisian-style café window seat" src="./assets/IMG_4877.jpeg"/>
+<div class="absolute inset-0 bg-black/20 opacity-0 group-hover:opacity-100 transition-opacity flex items-end p-6">
+<p class="text-white font-headline italic text-lg">I wish I could relive this moment...</p>
+</div>
+</div>
+<div class="group relative overflow-hidden rounded-xl shadow-lg">
+<img class="w-full h-full object-cover transition-transform duration-1000 group-hover:scale-110" data-alt="wide shot of a couple standing on a foggy mountain peak looking out over a sea of clouds" src="./assets/IMG_6130.jpeg"/>
+<div class="absolute inset-0 bg-black/20 opacity-0 group-hover:opacity-100 transition-opacity flex items-end p-6">
+<p class="text-white font-headline italic text-lg">The world was ours that day.</p>
+</div>
+</div>
+<div class="md:col-span-2 group relative overflow-hidden rounded-xl shadow-lg">
+<img class="w-full h-full object-cover transition-transform duration-1000 group-hover:scale-110" data-alt="warm intimate polaroid style photo of a laughing couple during a summer picnic in a blooming garden" src="./assets/9ccee0f8-d5c4-4611-ab3e-63c52b48922b.jpeg"/>
+<div class="absolute inset-0 bg-black/20 opacity-0 group-hover:opacity-100 transition-opacity flex items-end p-8">
+<p class="text-white font-headline italic text-2xl">Your laughter is my favorite song.</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- 3. The Little Things I Miss (Asymmetric Editorial Layout) -->
+<section class="py-32 bg-surface-container-low overflow-hidden">
+<div class="max-w-6xl mx-auto px-6">
+<div class="mb-24">
+<h2 class="text-5xl md:text-6xl font-headline italic text-primary text-center">The Little Things I Miss</h2>
+</div>
+<!-- Item 1 -->
+<div class="flex flex-col md:flex-row items-center gap-12 md:gap-24 mb-32">
+<div class="w-full md:w-1/2 relative">
+<div class="absolute -top-10 -left-10 w-40 h-40 bg-secondary-container/30 rounded-full blur-3xl"></div>
+<img class="w-full aspect-[4/5] object-cover rounded-xl shadow-2xl relative z-10 transform -rotate-2" data-alt="close-up of a genuine warm smile with soft focus background and gentle sunlight highlighting features" src="./assets/IMG_9897.jpeg"/>
+</div>
+<div class="w-full md:w-1/2 space-y-6">
+<span class="text-tertiary font-label tracking-widest uppercase text-sm">Every Morning</span>
+<h3 class="text-4xl font-headline italic">I miss your smile...</h3>
+<p class="text-on-surface-variant text-lg leading-relaxed">The way it lights up your entire face before you even say a word. It was the first thing I looked for every single day.</p>
+</div>
+</div>
+<!-- Item 2 -->
+<div class="flex flex-col md:flex-row-reverse items-center gap-12 md:gap-24 mb-32">
+<div class="w-full md:w-1/2 relative">
+<div class="absolute -bottom-10 -right-10 w-40 h-40 bg-primary-container/30 rounded-full blur-3xl"></div>
+<img class="w-full aspect-[4/5] object-cover rounded-xl shadow-2xl relative z-10 transform rotate-2" data-alt="abstract artistic shot of two coffee cups and an open journal on a rustic wooden table with long evening shadows" src="./assets/IMG_9775.jpeg"/>
+</div>
+<div class="w-full md:w-1/2 space-y-6">
+<span class="text-tertiary font-label tracking-widest uppercase text-sm">Deep Connections</span>
+<h3 class="text-4xl font-headline italic">The way we used to talk for hours...</h3>
+<p class="text-on-surface-variant text-lg leading-relaxed">About everything and nothing at all. Time didn't seem to exist when I was listening to your thoughts and sharing mine.</p>
+</div>
+</div>
+<!-- Item 3 -->
+<div class="flex flex-col md:flex-row items-center gap-12 md:gap-24">
+<div class="w-full md:w-1/2 relative">
+<div class="absolute -top-10 -right-10 w-40 h-40 bg-secondary-container/30 rounded-full blur-3xl"></div>
+<img class="w-full aspect-[4/5] object-cover rounded-xl shadow-2xl relative z-10 transform -rotate-1" data-alt="tender shot of intertwined fingers on a soft wool blanket during a quiet rainy afternoon" src="./assets/IMG_3252.png"/>
+</div>
+<div class="w-full md:w-1/2 space-y-6">
+<span class="text-tertiary font-label tracking-widest uppercase text-sm">Simple Comfort</span>
+<h3 class="text-4xl font-headline italic">Your presence in the silence...</h3>
+<p class="text-on-surface-variant text-lg leading-relaxed">Even when we weren't speaking, just knowing you were there was enough. The silence felt full, never empty.</p>
+</div>
+</div>
+</div>
+</section>
+<!-- 4. Distance Feels Heavy -->
+<section class="relative h-[614px] flex items-center justify-center bg-zinc-950 overflow-hidden">
+<img class="absolute inset-0 w-full h-full object-cover opacity-60" data-alt="ethereal long exposure of a starry night sky over a vast empty road leading toward distant purple mountains" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBreKtqIx7YBspnlqlYGD56a1PeB7pvivRJHylwCVVXafMxDbdfDAvgoE7nwBtYc2NEpmKmFEItlaCGvgLSaGSpiYn6EFpIEL1GER8Q_C96AbP6WmRyTLom-9FfTrRgEiFdxYp702T_hHNMaj5OdyMIy6F8dBvMZLTYS_Rm2ujZN410o1KWIeUTXgJayRI8aalZM3lf5d4fgx27gRMIC_ZaagerymlVqyWYvhRzFesYsCwdWuknXG-_Ilf9sOHIj3NfxrMPBKXbeQE"/>
+<div class="relative z-10 text-center px-6 max-w-3xl">
+<h2 class="text-white font-headline italic text-3xl md:text-5xl leading-tight">
+                "Days feel longer. Nights feel quieter. Without you, something is always missing."
+            </h2>
+</div>
+</section>
+<!-- 5. Message From My Heart (Letter UI) -->
+<section class="py-32 bg-surface flex justify-center px-6" id="letter">
+<div class="max-w-2xl w-full bg-surface-container-lowest p-12 md:p-20 rounded-xl shadow-[0_30px_60px_rgba(0,0,0,0.05)] relative overflow-hidden">
+<div class="absolute top-0 right-0 p-8">
+<span class="material-symbols-outlined text-primary/20 text-6xl rotate-12">favorite</span>
+</div>
+<div class="space-y-8 font-headline text-on-surface">
+<p class="text-lg italic text-on-surface-variant">My Dearest KM ,</p>
+<p class="text-xl md:text-2xl leading-relaxed italic">
+                    I found myself writing this because some feelings are too heavy to carry alone. No matter where life takes us, my heart has chosen you—and it chooses you every single day.
+                </p>
+<p class="text-xl md:text-2xl leading-relaxed italic">
+                    I've nexer thought to make you feel bad or cry deep from my heart and I'll never. I want to and I'll make sure to keep you veryyy happyyyyyyy. Every sunset I see, every small victory and every quiet defeat... I want to share them all with you. You aren't just a part of my life; you are the soul of it.
+                </p>
+<div class="pt-8">
+<p class="text-lg italic text-on-surface-variant">Always yours,</p>
+<p class="text-3xl font-headline text-primary mt-2">Forever Me, NK</p>
+</div>
+</div>
+</div>
+</section>
+<!-- 6. Final Confession -->
+<section class="py-32 bg-surface-container-high relative">
+<div class="max-w-5xl mx-auto px-6 text-center">
+<div class="mb-12 relative">
+<img class="w-full max-w-lg mx-auto rounded-full aspect-square object-cover shadow-2xl mb-12" data-alt="tender silhouette of a couple pressing their foreheads together against a soft twilight sky backdrop" src="./assets/e00ca3bc-1bd8-48ce-8d79-e8b0eeb3923f.jpeg"/>
+</div>
+<h2 class="text-5xl md:text-7xl font-headline italic text-primary mb-8">I don’t just miss you… I love you.</h2>
+<div class="space-y-4 mb-16">
+<p class="text-2xl md:text-3xl font-headline text-on-surface-variant">And I truly believe… one day, not too long we’ll hold our hands together married, pass though every corner of the world together.</p>
+<p class="text-2xl md:text-3xl font-headline text-on-surface-variant">We’ll build a life together. We’ll get married.</p>
+</div>
+<button class="px-12 py-5 rounded-full bg-gradient-to-r from-primary to-primary-container text-on-primary text-xl font-headline italic tracking-wide shadow-xl hover:scale-105 transition-all duration-500">
+                Forever Starts With You ❤️
+            </button>
+</div>
+</section>
+
+<!-- Footer -->
+<footer class="bg-zinc-50 dark:bg-zinc-950 w-full py-20 px-8 flex flex-col items-center justify-center space-y-8 text-center">
+<div class="text-rose-400 dark:text-rose-200 font-sans uppercase tracking-[0.2em] text-[10px] space-y-8">
+<div class="flex gap-8 justify-center mb-8">
+<a class="text-zinc-400 dark:text-zinc-600 hover:tracking-[0.3em] transition-all duration-500" href="#">Revisit</a>
+</div>
+<p class="text-zinc-400 dark:text-zinc-600">With all my love, your Nikhil forever.</p>
+</div>
+</footer>
+<!-- Floating Particles Simulation (Visual only) -->
+<div class="fixed inset-0 pointer-events-none z-[60] overflow-hidden">
+<div class="absolute top-1/4 left-1/4 w-2 h-2 bg-rose-200/40 rounded-full blur-sm animate-pulse"></div>
+<div class="absolute top-3/4 left-1/3 w-3 h-3 bg-amber-100/30 rounded-full blur-md animate-pulse delay-700"></div>
+<div class="absolute top-1/2 right-1/4 w-2 h-2 bg-rose-300/40 rounded-full blur-sm animate-pulse delay-1000"></div>
+<div class="absolute top-10 right-10 w-4 h-4 bg-white/20 rounded-full blur-lg animate-pulse delay-500"></div>
+</div>
+</body></html>
